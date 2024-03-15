@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt install -y nginx \
+RUN apt-get install -y nginx \
 zip\
 unzip
 ADD https://www.free-css.com/assets/files/free-css-templetes/download/pages254/photogenic.zip /var/www/html/
